@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: white;
+    /* min-height: 100vh; */
+}
+
+header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    height: 40px;
+    min-height:30px;
+    max-height: 40px;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    height: 40px;
+    min-height:30px;
+    max-height: 40px;
+    width: 100%;
+    
+}
+
+main {
+    
+    background-color: blue;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding: 20px 20px;
+    
+    
+}
+
+.h1{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: left;
+}
+
+p{
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: white;  
+    font-size: 120%;
+}
+
+.square{
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    float: left;
+    width: 100px;       /* Ширина квадрата */
+    height: 100px;      /* Высота квадрата */
+    border: 5px solid white; /* Толщина и стиль границы */
+    background-color: transparent; /* Фоновый цвет */
+}
+
+.headerspan{
+    color: white;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.footerspan{
+    color: white;
+    font-weight: 100;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    color: red;
+    font-size: 1.3em;
+    font-family: Arial, sans-serif;
+}
+
+.csi{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.listh{
+    text-align: left;
+    word-spacing: 10px;
+}
+
+.here{
+    color: red;
+}
+
+ul > li{
+    text-align: left;
+    margin-left: 35px;  
+    font-family: Arial, sans-serif;
+    color: white;
+
+}
+
+ul li:nth-child(2) {
+    word-spacing: 3px;
+    color: aquamarine;
+}
+
+li{
+    margin-top: 10px;
+}
+
+.list2{
+    margin-top: 18px;
+}
+
+.style{
+    display: block;
+    text-align: left;
+    line-height: 1.8;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#s4{
+    visibility: hidden;
+    line-height: 1;
+}
+
+#s5{
+    text-decoration: line-through;
+    line-height: 1;
+}
+
+td{
+    width: 45px; 
+    height:32px; 
+    border: solid 1px silver; 
+    vertical-align: bottom;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+table{
+    border: solid 1px silver;
+    min-width:45px;
+    max-width:300px;
+}
+
+aside{
+    display:flex;
+    justify-content: right;
+    float: right;
+    margin-top: 18px; 
+    flex-direction: column; /* Выстраивает элементы в колонку */ 
+}
+
+.imagef{
+    text-align: right;
+    margin:10px 0px;
+    clear: both;
+
+    
+    
+}
+
+.section1{
+    overflow: auto;
+}
+    
